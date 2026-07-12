@@ -46,13 +46,21 @@
     .page {
       min-width: 100%;
       height:auto;
+      min-height:100%;
+      overflow-y:visible;
+      scroll-snap-align: start;
+      padding: 6px 6px 54px;
+	  display:block;
+    }
+	.page123 {
+      min-width: 100%;
+      height:auto;
       min-height:125vh;
       overflow-y:visible;
       scroll-snap-align: start;
       padding: 6px 6px 54px;
 	  display:block;
     }
-
     .menu-box {
       background: #fff;
       border: 1px solid #ead8c5;
@@ -384,7 +392,7 @@
         </div>
       </section>
 
-      <section class="page" id="menu-snacks">
+      <section class="page123" id="menu-snacks">
         <nav class="page-nav" aria-label="Menu categories"><a href="#menu-breakfast">Breakfast</a><a href="#menu-beverages">Beverages</a><a class="active" href="#menu-snacks">Snacks</a><a href="#menu-veg-main">Veg Main</a><a href="#menu-non-veg">Non Veg</a><a href="#menu-breads">Breads</a><a href="#menu-continental">Continental</a></nav>
         
 		<div class="menu-box">
